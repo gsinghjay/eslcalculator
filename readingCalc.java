@@ -66,6 +66,7 @@ public class readingCalc
                              
          // Test Output
          // System.out.println("\n\n\n\n\n\nNGR IS: " + NGR);
+         System.out.println("\n- If students place into a split level (e.g. Level 4 for Writing and Level 3 for Grammar, the placement will default to the lower level).\n- If students place one levels apart (e.g. Level 1 for Writing and Level 3 for Grammar, they may retest for those sections).\n- If a student is in Level 0 and part-time, start with Reading & Discussion.\n- ESL Enrichment (Exit Test Prep Sessions) available in June or January (Contact Tutorial Services)."); 
          System.out.printf("\nPress [1] to run again, press [0] to exit: ");
          runAgain = KB.nextInt();
       }
