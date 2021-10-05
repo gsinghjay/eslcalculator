@@ -46,13 +46,13 @@ public class academicFoundationsCalc
 	            {
 	               System.out.println("\nCourse(s) Placed Into:\nENG-071 + RDG-071\n");
 	               System.out.println("Up to two (2) college courses from the following list:");
-	               System.out.println("ENG-112\nCSS-100\nART-101\nCAI-114\nCAI-118\nCAI-119\n*Any MAT course the student is eligible for.");
+	               System.out.println("ENG-112\nCSS-100\nART-101\nCAI-114\nCAI-118\nCAI-119\nMAT: Any eligible course.");
 	            }
 	            else if (NGR < 255) // ENG + RDG 071
 	            {
 	               System.out.println("\nCourse(s) Placed Into:\nENG-071 + RDG-071\n");
 	               System.out.println("Up to two (2) college courses from the following list:");
-	               System.out.println("ENG-112\nCSS-100\nART-101\nCAI-114\nCAI-118\nCAI-119\n*Any MAT course the student is eligible for.");
+	               System.out.println("ENG-112\nCSS-100\nART-101\nCAI-114\nCAI-118\nCAI-119\nMAT: Any eligible course.");
 	            }
 	         }
 	
@@ -63,13 +63,13 @@ public class academicFoundationsCalc
 	               {
 	                  System.out.println("\nCourse(s) Placed Into:\nENG-072 + RDG-072\n");
 	                  System.out.println("Up to two (2) college courses from the following list:");
-	                  System.out.println("ENG-112\nCSS-100\nART-101\nASL-101\nMLA-101\nMLF-101\nMLS-101\nMLS-111\nART-103\nART-106\nART-107\nARC-107\nARC-109\nCRJ-111\nCRJ-120\nCAI-All Course(s) except CAI-113\n*Any MAT course the student is eligible for.\nSCI-101\nCSC-100\nCSC-109\nECE-100");
+	                  System.out.println("ENG-112\nCSS-100\nART-101\nASL-101\nMLA-101\nMLF-101\nMLS-101\nMLS-111\nART-103\nART-106\nART-107\nARC-107\nARC-109\nCRJ-111\nCRJ-120\nCAI-All Course(s) except CAI-113\nMAT: Any eligible course.\nSCI-101\nCSC-100\nCSC-109\nECE-100");
 	               }
 	               else if (NGR <= 246) // ENG + RDG 071
 	               {
 	                  System.out.println("\nCourse(s) Placed Into:\nENG-071 + RDG-071\n");
 	                  System.out.println("Up to two (2) college courses from the following list:");
-	                  System.out.println("ENG-112\nCSS-100\nART-101\nCAI-114\nCAI-118\nCAI-119\n*Any MAT course the student is eligible for.");
+	                  System.out.println("ENG-112\nCSS-100\nART-101\nCAI-114\nCAI-118\nCAI-119\nMAT: Any eligible course.");
 	               }
 	            }
 	         
@@ -80,13 +80,13 @@ public class academicFoundationsCalc
 	                  {
 	                     System.out.println("\nCourse(s) Placed Into:\nENG-073-ALP + ENG-101-ALP\n");
 	                     System.out.println("Up to three (3) college courses from the following list:");
-	                     System.out.println("ENG-112\nCSS-100\nART-101\nASL-101\nMLA-101\nMLF-101\nMLS-101\nMLS-111\nART-103\nART-106\nART-107\nARC-107\nARC-109\nART-113\nART-114\nCRJ-111\nCRJ-120\nCRJ-214\nCAI: All courses\nMAN-121\n*Any MAT course the student is eligible for.\nSCI-101\nCHP-100\nSOC-101\nCSC-100\nCSC-109\nECE-100\nECE-110\nECE-120\nPSY-101");
+	                     System.out.println("ENG-112\nCSS-100\nART-101\nASL-101\nMLA-101\nMLF-101\nMLS-101\nMLS-111\nART-103\nART-106\nART-107\nARC-107\nARC-109\nART-113\nART-114\nCRJ-111\nCRJ-120\nCRJ-214\nCAI: All courses\nMAN-121\nMAT: Any eligible course.\nSCI-101\nCHP-100\nSOC-101\nCSC-100\nCSC-109\nECE-100\nECE-110\nECE-120\nPSY-101");
 	                  }
 	                  else if (NGR <= 246) // ENG + RDG 072
 	                  {
 	                     System.out.println("\nCourse(s) Placed Into:\nENG-072 + RDG-072\n");
 	                     System.out.println("Up to two (2) college courses from the following list:");
-	                     System.out.println("ENG-112\nCSS-100\nART-101\nASL-101\nMLA-101\nMLF-101\nMLS-101\nMLS-111\nART-103\nART-106\nART-107\nARC-107\nARC-109\nCRJ-111\nCRJ-120\nCAI-All Course(s) except CAI-113\n*Any MAT course the student is eligible for.\nSCI-101\nCSC-100\nCSC-109\nECE-100");
+	                     System.out.println("ENG-112\nCSS-100\nART-101\nASL-101\nMLA-101\nMLF-101\nMLS-101\nMLS-111\nART-103\nART-106\nART-107\nARC-107\nARC-109\nCRJ-111\nCRJ-120\nCAI-All Course(s) except CAI-113\nMAT: Any eligible course.\nSCI-101\nCSC-100\nCSC-109\nECE-100");
 	                  }
 	               }
 	         
@@ -101,7 +101,7 @@ public class academicFoundationsCalc
 	                     {
 	                        System.out.println("\nCourse(s) Placed Into:\nENG-073-ALP + ENG-101-ALP\n");
 	                        System.out.println("Up to three (3) college courses from the following list:");
-	                        System.out.println("ENG-112\nCSS-100\nART-101\nASL-101\nMLA-101\nMLF-101\nMLS-101\nMLS-111\nART-103\nART-106\nART-107\nARC-107\nARC-109\nART-113\nART-114\nCRJ-111\nCRJ-120\nCRJ-214\nCAI: All courses\nMAN-121\n*Any MAT course the student is eligible for.\nSCI-101\nCHP-100\nSOC-101\nCSC-100\nCSC-109\nECE-100\nECE-110\nECE-120\nPSY-101");
+	                        System.out.println("ENG-112\nCSS-100\nART-101\nASL-101\nMLA-101\nMLF-101\nMLS-101\nMLS-111\nART-103\nART-106\nART-107\nARC-107\nARC-109\nART-113\nART-114\nCRJ-111\nCRJ-120\nCRJ-214\nCAI: All courses\nMAN-121\nMAT: Any eligible course.\nSCI-101\nCHP-100\nSOC-101\nCSC-100\nCSC-109\nECE-100\nECE-110\nECE-120\nPSY-101");
 	                     }
 	                  }
 	         
